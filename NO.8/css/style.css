@@ -1,0 +1,326 @@
+body {
+  color: #2A2A2A;
+  font-size: .9rem;
+}
+
+a {
+  color: #2A2A2A;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.section {
+  margin: 80px 0;
+}
+
+.section_ttl {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  border: 1px solid #2A2A2A;
+  font-size: .7rem;
+  padding: 14px 36px;
+}
+
+.btn:hover {
+  opacity: .7;
+}
+
+.ttl {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+#header .header_mv {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+#header .header_logo {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+#magazine .magazine_p {
+  text-align: center;
+  font-size: .9rem;
+  line-height: 1.2rem;
+  margin-bottom: 40px;
+}
+
+#magazine .magazine_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#magazine .magazine_content a {
+  display: block;
+  width: 48%;
+}
+
+#magazine .magazine_content a:hover {
+  opacity: .7;
+}
+
+#magazine .magazine_content a .content {
+  position: relative;
+}
+
+#magazine .magazine_content a .content_txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+#magazine .magazine_content a .content_txt h2 {
+  font-size: 1.1rem;
+}
+
+#magazine .magazine_content a .content_txt p {
+  font-weight: bold;
+  font-size: .9rem;
+  padding: 5px 20px;
+  white-space: nowrap;
+}
+
+#fashion {
+  height: 460px;
+  background: url(../img/fashion.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#fashion .container {
+  padding-top: 60px;
+  text-align: center;
+}
+
+#fashion .container h2 {
+  margin-bottom: 20px;
+}
+
+#fashion .container p {
+  margin-bottom: 30px;
+  font-size: .9rem;
+  line-height: 1.2rem;
+}
+
+#catalog_antique {
+  background: #F5F5F5;
+  padding: 60px 0;
+}
+
+#catalog_antique .catalog_antique_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#catalog_antique .catalog_antique_content:nth-child(1) {
+  margin-bottom: 120px;
+}
+
+#catalog_antique .catalog_antique_content:nth-child(2) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: row-reverse;
+          flex-flow: row-reverse;
+}
+
+#catalog_antique .catalog_antique_content img {
+  width: 45%;
+}
+
+#catalog_antique .catalog_antique_content .txt {
+  padding: 0 5%;
+}
+
+#catalog_antique .catalog_antique_content .txt .section_ttl {
+  margin-bottom: 40px;
+}
+
+#catalog_antique .catalog_antique_content .txt p {
+  margin-bottom: 30px;
+  font-size: .9rem;
+  line-height: 1.2rem;
+}
+
+#catalog_antique .catalog_antique_content .txt p:last-child {
+  margin-bottom: 0;
+}
+
+#catalog_antique .catalog_antique_content .txt .last_p {
+  margin-bottom: 60px;
+}
+
+#catalog_antique .catalog_antique_content .txt_btn {
+  text-align: center;
+}
+
+#footer .footer_top {
+  background: #333333;
+  color: #fff;
+}
+
+#footer .footer_top .container {
+  padding: 100px 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footer .footer_top .container .footer_top_first {
+  width: calc(100% / 3);
+}
+
+#footer .footer_top .container .footer_top_first .footer_logo {
+  line-height: 1;
+  display: inline-block;
+}
+
+#footer .footer_top .container .footer_top_first .footer_logo:hover {
+  opacity: .7;
+}
+
+#footer .footer_top .container .footer_top_second {
+  width: calc(100% / 3);
+}
+
+#footer .footer_top .container .footer_top_second ul li {
+  font-size: .8rem;
+  padding: 5px 0;
+}
+
+#footer .footer_top .container .footer_top_second ul li::before {
+  content: "-";
+  margin-right: 5px;
+}
+
+#footer .footer_top .container .footer_top_third {
+  width: calc(100% / 3);
+}
+
+#footer .footer_top .container .footer_top_third .notttl {
+  font-size: .8rem;
+  line-height: 1.2rem;
+  padding: 5px 0;
+}
+
+#footer .footer_top .footer_bottom {
+  background: #fff;
+}
+
+#footer .footer_top .footer_bottom p {
+  text-align: center;
+  padding: 20px 0;
+  color: #2A2A2A;
+  font-size: .5rem;
+}
+
+@media screen and (max-width: 896px) {
+  .container {
+    padding: 0 7%;
+  }
+  #magazine .magazine_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  #magazine .magazine_content a {
+    width: 100%;
+  }
+  #magazine .magazine_content a:nth-child(1) {
+    margin-bottom: 30px;
+  }
+  #catalog_antique {
+    padding: 30px 0;
+  }
+  #catalog_antique .catalog_antique_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  #catalog_antique .catalog_antique_content:nth-child(1) {
+    margin-bottom: 60px;
+  }
+  #catalog_antique .catalog_antique_content:nth-child(2) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+  }
+  #catalog_antique .catalog_antique_content:nth-child(2) img {
+    margin-bottom: 0;
+  }
+  #catalog_antique .catalog_antique_content img {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  #catalog_antique .catalog_antique_content .txt_btn {
+    margin-bottom: 60px;
+  }
+  #footer .footer_top .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    padding: 30px 7% 60px;
+  }
+  #footer .footer_top .container .footer_top_first {
+    width: 100%;
+    text-align: center;
+  }
+  #footer .footer_top .container .footer_top_second {
+    width: 100%;
+    padding: 40px 0;
+  }
+  #footer .footer_top .container .footer_top_third {
+    width: 100%;
+  }
+  #footer .footer_top .footer_bottom p {
+    padding: 30px 0;
+  }
+}

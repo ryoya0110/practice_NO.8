@@ -1,0 +1,169 @@
+#header {
+	.header {
+		&_mv {
+			position: relative;
+			height: 100vh;
+			width: 100%;
+		}
+		&_logo {
+			position: absolute;
+			right: 30px;
+			top: 30px;
+		}
+	}
+}
+
+#magazine {
+	.magazine_p {
+		text-align: center;
+		font-size: .9rem;
+		line-height: 1.2rem;
+		margin-bottom: 40px;
+	}
+	.magazine_content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		a {
+			display: block;
+			width: 48%;
+			&:hover {
+				opacity: .7;
+			}
+			.content {
+				position: relative;
+				&_txt {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					background: rgba($color: #000000, $alpha: .5);
+					color: $sub_txt;
+					text-align: center;
+					padding: 15px 0;
+					h2 {
+						font-size: 1.1rem;
+					}
+					p {
+						font-weight: bold;
+						font-size: .9rem;
+						padding: 5px 20px;
+						white-space: nowrap;
+					}
+				}
+			}
+		}
+	}
+}
+
+#fashion {
+	height: 460px;
+	background: url(../img/fashion.jpg) no-repeat center;
+	background-size: cover;
+	.container {
+		padding-top: 60px;
+		text-align: center;
+		h2 {
+			margin-bottom: 20px;
+		}
+		p {
+			margin-bottom: 30px;
+			font-size: .9rem;
+			line-height: 1.2rem;
+		}
+	}
+}
+
+#catalog_antique {
+	background: $bg;
+	padding: 60px 0;
+	.catalog_antique_content {
+		display: flex;
+		align-items: center;
+		&:nth-child(1) {
+			margin-bottom: 120px;
+		}
+		&:nth-child(2) {
+			flex-flow: row-reverse;
+		}
+		img {
+			width: 45%;
+		}
+		.txt {
+			padding: 0 5%;
+			.section_ttl {
+				margin-bottom: 40px;
+			}
+			p {
+				margin-bottom: 30px;
+				font-size: .9rem;
+				line-height: 1.2rem;
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+			.last_p {
+				margin-bottom: 60px;
+			}
+			&_btn {
+				text-align: center;
+			}
+		}
+	}
+}
+
+#footer {
+	.footer {
+		&_top {
+			background: $footer_bg;
+			color: $sub_txt;
+			.container {
+				padding: 100px 5%;
+				display: flex;
+				align-items: center;
+				.footer_top {
+					&_first {
+						width: calc(100% / 3);
+						.footer_logo {
+							line-height: 1;
+							display: inline-block;
+							&:hover {
+								opacity: .7;
+							}
+						}
+					}
+					&_second {
+						width: calc(100% / 3);
+						ul {
+							li {
+								font-size: .8rem;
+								padding: 5px 0;
+								&::before {
+									content: "-";
+									margin-right: 5px;
+								}
+							}
+						}
+					}
+					&_third {
+						width: calc(100% / 3);
+						.notttl {
+							font-size: .8rem;
+							line-height: 1.2rem;
+							padding: 5px 0;
+						}
+					}
+				}
+			}
+			.footer_bottom {
+				background: $sub_txt;
+				p {
+					text-align: center;
+					padding: 20px 0;
+					color: $main_txt;
+					font-size: .5rem;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+body {
+	color: $main_txt;
+	font-size: .9rem;
+}
+a {
+	color: $main_txt;
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+img {
+	max-width: 100%;
+	box-sizing: border-box;
+}
+.container {
+	max-width: 1200px;
+	padding: 0 5%;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.section {
+	margin: 80px 0;
+}
+.section_ttl {
+	font-size: 1.3rem;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.btn {
+	border: 1px solid $main_txt;
+	font-size: .7rem;
+	padding: 14px 36px;
+	&:hover {
+		opacity: .7;
+	}
+}
+.ttl {
+	font-weight: bold;
+	font-size: 1.1rem;
+	margin-bottom: 10px;
+}
